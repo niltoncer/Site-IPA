@@ -24,7 +24,7 @@
    height: 80px;
 }
 .nav-item{
-  font-size: 12px; 
+  font-size: 13px; 
   font-weight: bolder;
 }
 .nav-link:hover, .active{
@@ -32,7 +32,7 @@
 }
 /* Imagem inicial */
 .jumbotron1 {
-  background-image: url('../imagens/background.jpg');
+  background-image: url('../imagens/background.png');
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
@@ -94,7 +94,7 @@
 }
 .facaparte-titulo{
   font-size: 30px;
-  color: #DC3545;
+  color: white;
   padding: 40px 0px 15px 0px;
   font-weight: bolder;
 }
@@ -255,7 +255,7 @@ text-align: center;
   }
   /* Faça parte */
   #facaparte{
-    background-color: #1b2b33;
+    background-color: #ff570e;
     color: white;
     padding-bottom: 40px;
   }
@@ -298,9 +298,6 @@ text-align: center;
 }
 .prog-div{
   padding-left: 40px !important;
-}
-.seja-aluno{
-  background-color: #138BA4;
 }
 #voluntariado{
   padding: 60px 0 40px 0;
