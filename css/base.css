@@ -554,13 +554,6 @@ text-align: center;
 }
 
 @media only screen and (max-width: 767px) {
-  #plus{
-    width: 200px;
-    position: relative;
-    top: -30px;
-    left: -70px;
-  }
-
   .prog-div{
     padding-left: 0 !important;
   }

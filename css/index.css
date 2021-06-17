@@ -15,6 +15,7 @@
   background-color: transparent !important;
   transition: ease-in-out 100ms;
   height: 80px;
+  
 }
 .mynav.scrolled{  
   background-color: white !important;
@@ -30,7 +31,6 @@
 .nav-link:hover, .active{
   color: #2AACE3 !important;
 }
-
 
 /* Inicio da página - Padrão*/
 .jumbotron1 {
@@ -188,6 +188,11 @@ text-align: center;
 /* -----------------------------------RESPONSIVO ---------------------------------- */
 
 @media only screen and (max-width: 1200px){
+  
+  /* Nav */
+  .logo{
+    height: 60px;
+  }
 
   /* Secunda section */
   .nossos_val{
@@ -232,6 +237,15 @@ text-align: center;
   }
 }
 
+@media only screen and (max-width: 767px){
+  /* Barra menu */
+  .menu{
+    background-image: linear-gradient(to bottom, white, rgba(255, 255, 255, 0.9), rgba(255, 255, 255, 0.85));
+    opacity: .9;
+    border-radius: 4px;
+    border: 3px solid white;
+  }
+}
 
 @media only screen and (max-width: 600px){
   
