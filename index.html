@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Programando o Amanhã</title>
-    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/index.css">
     <!-- Bootstrap e Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -15,7 +15,7 @@
 </head>
 <body>
     <!-- Barra de Navegação-->
-    <nav class="navbar navbar-light navbar-expand-md container-fluid mynav fixed-top">
+    <nav class="navbar navbar-light navbar-expand-md container-fluid mynav fixed-top" id="navResp>
       <div class="container">
           <a href="index.html" class="navbar-brand">
               <img src="imagens/logo.png" alt="" class="logo">
@@ -47,14 +47,15 @@
   </nav>
   <!-- Imagem inicial -->
   <section class="jumbotron1 d-flex align-items-center">
+    
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320" id="waves"><path fill="#2AACE3" fill-opacity="1" d="M0,128L120,138.7C240,149,480,171,720,160C960,149,1200,107,1320,85.3L1440,64L1440,320L1320,320C1200,320,960,320,720,320C480,320,240,320,120,320L0,320Z"></path></svg>
+
   </section>
     <!-- Descrição do programa -->
     <section class="equipe-cor alegria"> 
         <div class="container">
             <div class="row">
                 <div class="col-md-7">
-                    <img src="imagens/elemento_plus.png" alt="" id="plus">
                     <p class="titulo-inicial text-center">“Somos um instituto sem fins lucrativos.</p>
                     <p class="texto-alegria">
                         Temos como objetivo principal aumentar o
@@ -78,7 +79,7 @@
     <!-- Nossa equipe -->
     <div class="container-fluid volunteer">
         <div class="container">    
-            <div class="row">
+            <div class="row" id="divNossos">
                 <div class="nossos_val">
                     <img src="imagens/nossamissao.png" alt="" class="img-index">
                     <img src="imagens/nossosvalores.png" alt="" class="img-index1">

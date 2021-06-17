@@ -1,0 +1,265 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+/* Reset dos espaçamentos do parágrafo */
+.paragrafo{
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* Barra de Navegação */
+.mynav a{
+  margin-right: 15px;
+}
+.mynav{
+  background-color: transparent !important;
+  transition: ease-in-out 100ms;
+  height: 80px;
+}
+.mynav.scrolled{  
+  background-color: white !important;
+}
+.logo{
+   height: 80px;
+}
+.nav-item{
+  font-size: 13px; 
+  font-weight: bolder;
+  margin: 10px;
+}
+.nav-link:hover, .active{
+  color: #2AACE3 !important;
+}
+
+
+/* Inicio da página - Padrão*/
+.jumbotron1 {
+  background-image: url('../imagens/background.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 98vh;
+  margin: 0px !important;
+}
+#waves {
+  position: relative;
+  top: 300px;
+}
+
+/* Configuração de texto */
+.titulo-inicial{
+  font-size: 30px;
+  padding: 20px 0px 15px 0px;
+  font-weight: bolder;
+}
+.facaparte-titulo{
+  font-size: 30px;
+  color: white;
+  padding: 40px 0px 15px 0px;
+  font-weight: bolder;
+}
+
+
+/* Linha horizontal */
+hr {
+  color: #EEC724;
+  background-color: #EEC724;
+  height: 2px !important;
+}
+.hr {
+  color: #2AACE3 !important;
+  background-color: #2AACE3 !important;
+  height: 2px !important;
+}
+
+
+/* Primeira Section */
+.texto-alegria{
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 100px;
+} 
+.equipe-cor{
+  background-color: #2AACE3;
+  color: white;
+}
+.img-responsivo{
+  width: 300px;
+  margin: 20px 0;
+}
+.btn-warning{
+  color: white !important;
+  margin: 15px 0px 20px 0px !important;
+}
+.centro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* Segunda Section*/
+.volunteer{
+  background-color: #EEC724;
+  padding: 40px 0 40px 0;
+  color: white;
+  height: max-content;
+}
+.nossos_val{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  max-height: 1350px;
+}
+.img-index, .img-index1, .img-index2{
+  width: 400px;
+  height: 400px;
+}
+
+
+/* Teceira Section*/
+#facaparte{
+  background-color: #ff570e;
+  color: white;
+  padding-bottom: 40px;
+}
+.facaparte-alinhamento{
+  text-align: center;
+}
+.facaparte-texto{
+  font-size: 22px;
+  padding-bottom: 15px;
+}
+.fas{ /*ícones do font awesome*/
+  font-size: 50px;
+  color: white;
+  margin: 15px 0px 15px 0px;
+}
+
+
+/* Rodapé */
+footer{
+  color: slategrey;
+  padding: 60px 0px 80px 0px;
+  font-size: 13px;
+  background-color: #e9e9e9;
+}
+.rodape-imagem{
+height: 116px;
+}
+.contatos-rodape > a, .contatos-rodape > a:hover{
+  text-decoration: none;
+}
+.contatos-rodape > a > label{
+  text-decoration: none;
+  color: slategrey;
+}
+.email{
+  text-decoration: none;
+  color: slategrey;
+}
+.email:hover{
+text-decoration: none;
+color: slategrey;
+}
+.contatos-rodape > a > img{
+  width: 60px;
+  margin: 10px;
+  filter: drop-shadow(0 0 20px rgba(112, 128, 144, 0.616));
+}
+.contatos-rodape > a > img:hover{
+  width: 60px;
+  margin-right: 10px;
+  filter: drop-shadow(2px 2px 10px slategrey);
+}
+label{
+cursor: pointer;
+}
+.rodape-p > p{
+padding: 0px;
+margin: 0px;
+}
+.rodape-autores{
+margin-top: 40px;
+text-align: center;
+}
+
+
+/* -----------------------------------RESPONSIVO ---------------------------------- */
+
+@media only screen and (max-width: 1200px){
+
+  /* Secunda section */
+  .nossos_val{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center;
+    max-height: 1350px;
+  }
+  
+}
+
+
+@media only screen and (max-width: 960px){
+  
+  /* Primeira Section */
+  .texto-alegria{
+  font-size: 20px;
+  text-align: justify;
+  margin-bottom: 50px;
+  } 
+  /* Secunda section */
+  .nossos_val{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 1350px;
+  }
+  #divNossos{
+    display: flex;
+    justify-content: center;
+    /* Centralizando conteiner no responsivo */
+  }
+}
+
+
+@media only screen and (max-width: 995px) {
+  .rodape-imagem{
+    height: 100px;
+  }
+}
+
+
+@media only screen and (max-width: 600px){
+  
+  /* Primeira Section */
+  .texto-alegria{
+    font-size: 20px;
+    text-align: justify;
+    margin-bottom: 50px;
+    } 
+
+  /* Secunda section */
+  .nossos_val{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    max-height: 1350px;
+  }
+  .img-index, .img-index1, .img-index2{
+    width: 335px;
+    height: 335px;
+  }
+
+
+}
+
+@media only screen and (min-height: 738px){
+  #waves{
+    display: none;
+  }
+}
