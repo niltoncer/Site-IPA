@@ -33,12 +33,12 @@
 }
 /* Imagem inicial */
 .jumbotron1 {
-  background-image: url('../imagens/background.png');
+  background-image: url('../imagens/backgroundSA.png');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  background-attachment: fixed;
-  min-height: 100vh;
+  background-attachment: scroll;
+  min-height: 80vh;
   margin: 0px !important;
 }
 #waves {
