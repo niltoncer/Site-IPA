@@ -55,7 +55,7 @@
     text-align: justify;
   }
   .texto-aluno{
-    font-size: 22px;
+    font-size: 20px;
     padding-top: 15px;
   }
   .facaparte-titulo{
@@ -76,7 +76,7 @@ hr {
   background-color: #ff570e;
   height: 2px !important;
 }
-.hr {
+#hr {
   color: #2AACE3 !important;
   background-color: #2AACE3 !important;
   height: 2px !important;
@@ -108,13 +108,41 @@ hr {
     text-align: justify;
   }
 
+  .caixa-slide{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  #carroselDetails{
+    margin-bottom: 20px;
+
+  }
+  .botaoSaibamais{
+    width: 300px;
+    background-color: #00a7d3;
+    border: 1px solid #0091b996;
+    box-shadow: 0px 0px 10px #00000030;
+    border-radius: 20px;
+    padding: 5px 0;
+    font-weight: 700;
+    color: white;
+    transition: box-shadow 1s, width 1s, text-shadow 1.5s;
+  }
+  .botaoSaibamais:hover{
+    box-shadow: 2px 2px 5px #00000030, -2px -2px 5px #00000030;
+    width: 310px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+  }
+
+
   /* Section 2 */
 
   .programa-pad
   {
   color: white; 
   padding: 60px 0 60px 0;
-  background-color: #EEC724;
+  background-color: #ff570e;
   }
   .prog-div{
     padding-left: 40px !important;
@@ -127,10 +155,37 @@ hr {
 
   /* Section 3 */
   #facaparte{
-    background-color: #ff570e;
+    background-color: #f5ca20;
     color: white;
     padding-bottom: 40px;
   }
+  .caixa-aluno{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .caixa-botaoaluno{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .botaoaluno{
+    width: 300px;
+    background-color: #00a7d3;
+    border: 1px solid #0091b996;
+    box-shadow: 0px 0px 10px #00000030;
+    border-radius: 20px;
+    padding: 5px 0;
+    font-weight: 700;
+    color: white;
+    transition: box-shadow 1s, width 1s, text-shadow 1.5s;
+  }
+  .botaoaluno:hover{
+    box-shadow: 2px 2px 5px #00000030, -2px -2px 5px #00000030;
+    width: 310px;
+    text-shadow: 1px 1px 10px rgba(0, 0, 0, 0.356);
+  }
+
+
    /* Rodapé */
  footer{
     color: slategrey;
@@ -191,6 +246,24 @@ hr {
   
   
   @media only screen and (max-width: 960px){
+    .caixa-aluno{
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-evenly;
+    }
+    .texto-aluno{
+      font-size: 20px;
+      padding-top: 30px;
+    }
+    .caixa-botaoaluno{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin-top: 30px;
+    }
+    .col-md-4{
+      padding: 0 !important;
+    }
   }
   
   @media only screen and (max-width: 995px) {
