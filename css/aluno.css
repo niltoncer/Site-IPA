@@ -107,7 +107,6 @@ hr {
     font-size: 18px;
     text-align: justify;
   }
-
   .caixa-slide{
     display: flex;
     flex-direction: column;
@@ -115,6 +114,7 @@ hr {
     align-items: center;
     margin-top: 20px;
   }
+  
   #carroselDetails{
     margin-bottom: 20px;
     border-radius: 20px;
@@ -125,11 +125,12 @@ hr {
     color: white;
     box-shadow: 0px 0px 10px #00000030;
     border-radius: 30px;
-    border: 1px solid #ff570e;
-    transition: box-shadow 1s;
+    border: 2px solid #ff570e;
+    transition: box-shadow 1s, border 1s, color 1s, background-color 1s;
   }
   .botaoSaibamais:hover{
     box-shadow: 2px 2px 5px 3px #00000030, -2px -2px 5px #00000030;
+    border: 2px solid #00a7d3;
   }
   .txtbtn{
   }
@@ -308,6 +309,15 @@ hr {
       border-radius: 30px;
       border: 1px solid #ff570e;
       transition: box-shadow 1s;
+    }
+
+    #txt1{
+      font-weight: 700;
+      font-size: 13px;
+    }
+
+    #txt2{
+      font-size: 13px;
     }
     
   }
