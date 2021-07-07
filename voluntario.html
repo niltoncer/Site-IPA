@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Instituto Programando o Amanhã</title>
-    <link rel="stylesheet" href="css/voluntariado.css">
+    <link rel="stylesheet" href="css/voluntario.css">
     <!-- Bootstrap e Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
@@ -44,55 +44,90 @@
             </div>
         </div>
     </nav>
-    <!-- Imagem inicial -->
-    <section class="jumbotron1 d-flex align-items-center">
+<!-- Imagem inicial -->
+    <section class="jumbotron1">
+        <div class="caixabtnSB">
+            <div class="btnSB">
+                <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5521985290816" target="_blank" >
+                    <button>
+                        <span>Saiba Mais</span>
+                    </button>
+                </a>
+                <img src="imagens/setasaibamais.png" alt="" id="seta">
+            </div>
+        </div>
     </section>
-
 <!-- Section 1 -->
-    <section id="section1">
-        <article id="article1-s1"></article>
-        <article id="article2-s1"></article>
+    <section class="azul" id="azul1">
+        <div class="texto">
+            <p>A gestão do IPA é baseada em técnicas e ferramentas de gestão organizacional e empreendedoras.
+                Sua cultura é formada a partir de princípios humanitários e vanguardistas que geram resultado no Mercado Empresarial como forma de impactar cada vez mais jovens e possibilitar também aos voluntários o enriquecimento profissional.
+                Nossos voluntários são pessoas altamente comprometidas com seu desenvolvimento profissional e o desenvolvimento do Instituto.</p>
+            <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5521985290816" target="_blank" id="btnvolunt">
+                <button>
+                    <span><img src="imagens/iconwpp.png" alt="" id="iconwpp"></span>
+                    <span>Quero ser voluntário!</span>
+                </button>
+            </a>
+        </div>
+        <div class="img1">
+            <img src="imagens/fotomãosplus.png" alt="" width="100%" id="sec1img">
+        </div>
+    </section>
+    <section class="azul" id="azul2">
+        <div class="img2">
+            <img src="imagens/maosvolun.png" alt="" width="100%" id="sec2img">
+        </div>
+        <div class="texto">
+            <p>Nós refutamos toda e qualquer mentalidade de que o voluntariado é apenas uma contenção de despesas e assumimos o serviço voluntário segundo a Lei do Voluntariado vigente no Brasil.
+            Acreditamos na ousadia de cada um que decidiu um dia que faria a diferença para ajudar outras pessoas a mudarem também de vida por meio do trabalho em equipe.Afinal, somos como a água que, de gota em gota, formam imensos oceanos.</p>
+        </div>
     </section>
 
 <!-- Section 2 -->
-    <section id="section2">
-        <article id="article1-s2"></article>
-    </section>
-
-<!-- Rodapé -->
-<footer class="container-fluid">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-4">
-                <img src="imagens/logo.png" alt="" class="rodape-imagem">
-                <br>
-            </div>
-            <div class="col-md-4 rodape-p">
-                <p><b>Endereço:</b></p>
-                <p>Rua Imboaçu, 77 - Coelho Neto/RJ</p>
-                <p><b>Telefone:</b></p>
-                <p>(21) 98529-0816</p>
-                <p><b>Email:</b></p>
-                <p><a href="mailto:contato@programandooamanha.com.br?subject=Site do Instituto Programando o amanhã" class="email" title="">contato@programandooamanha.com.br</a></p>
-                <br>
-            </div>
-            <div class="col-md-4 centro text-center">
-                <div class="contatos-rodape">
-                    <a href="https://www.facebook.com/prgaofficial/" target="_blank">
-                        <img src="imagens/facebook.png" alt="Facebook" id="fb">
-                    </a>
-                    <a href="https://www.instagram.com/prgaofficial/" target="_blank">
-                        <img src="imagens/instagram.png" alt="Instagram" id="ig">
-                    </a>
-                    <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5521985290816" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
-                </div>
-            </div>
-            <div class="col-sm-12 rodape-autores">&copy;  2020 Instituto Programando o Amanhã </div>
-
+    <section class="laranja">
+        <div class="caixavd">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IqF1EKmGxzU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
-    </div>
-</footer> 
-    
+        <div class="texto2">
+            <p id="titulo">Conheça nossos voluntários</p>
+            <p>Nossos voluntários são jovens e profissionais experientes dispostos a impactar vidas através de seus conhecimentos. Formamos uma rede de networking e saberes agregando conhecimento e também aprendendo com nossos colegas. Somos uma rede de colaboração mútua. Nós ensinamos, aprendemos, atuamos e impactamos!</p>
+        </div>
+    </section>
+<!-- Rodapé -->
+    <footer class="container-fluid">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <img src="imagens/logo.png" alt="" class="rodape-imagem">
+                    <br>
+                </div>
+                <div class="col-md-4 rodape-p">
+                    <p><b>Endereço:</b></p>
+                    <p>Rua Imboaçu, 77 - Coelho Neto/RJ</p>
+                    <p><b>Telefone:</b></p>
+                    <p>(21) 98529-0816</p>
+                    <p><b>Email:</b></p>
+                    <p><a href="mailto:contato@programandooamanha.com.br?subject=Site do Instituto Programando o amanhã" class="email" title="">contato@programandooamanha.com.br</a></p>
+                    <br>
+                </div>
+                <div class="col-md-4 centro text-center">
+                    <div class="contatos-rodape">
+                        <a href="https://www.facebook.com/prgaofficial/" target="_blank">
+                            <img src="imagens/facebook.png" alt="Facebook" id="fb">
+                        </a>
+                        <a href="https://www.instagram.com/prgaofficial/" target="_blank">
+                            <img src="imagens/instagram.png" alt="Instagram" id="ig">
+                        </a>
+                        <a href="http://api.whatsapp.com/send?1=pt_BR&phone=5521985290816" target="_blank"><img src="imagens/whatsapp.png" alt="Whatsapp"></a>
+                    </div>
+                </div>
+                <div class="col-sm-12 rodape-autores">&copy;  2020 Instituto Programando o Amanhã </div>
+
+            </div>
+        </div>
+    </footer> 
+        
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
