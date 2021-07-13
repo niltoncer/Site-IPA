@@ -314,6 +314,9 @@
     .rodape-imagem{
       height: 100px;
     }
+    .contatos-rodape img{
+      margin-bottom: 5px;
+    }
   }
   
   @media only screen and (max-width: 767px){
