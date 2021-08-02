@@ -300,10 +300,29 @@ hr {
       border-radius: 4px;
       border: 3px solid white;
     }
-
+      /* Imagem inicial */
+    .jumbotron1 {
+      background-image: url('../imagens/backgroundSA.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 70vh;
+      margin: 0px !important;
+    }
   }
   
   @media only screen and (max-width: 600px){
+    
+    .jumbotron1 {
+      background-image: url('../imagens/backgroundSA.png');
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 50vh;
+      margin: 0px !important;
+    }
     .botaoSaibamais{
       width: 270px;
       background-color: #ff570e;

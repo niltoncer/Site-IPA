@@ -113,8 +113,8 @@ hr {
   max-height: 1350px;
 }
 .img-index, .img-index1, .img-index2{
-  width: 320px;
-  height: 320px;
+  width: 370px;
+  height: 370px;
 }
 
 
@@ -202,6 +202,14 @@ text-align: center;
     align-content: center;
     max-height: 1350px;
   }
+  .jumbotron1 {
+    background-image: url('../imagens/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 70vh;
+    margin: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 995px) {
@@ -211,16 +219,24 @@ text-align: center;
   .contatos-rodape img{
     margin-bottom: 5px;
   }
+  .jumbotron1 {
+    background-image: url('../imagens/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 60vh;
+    margin: 0px !important;
+  }
 }
 
 @media only screen and (max-width: 960px){
   
   .jumbotron1 {
-    background-image: url('../imagens/backgroundindexedit1.png');
+    background-image: url('../imagens/background.png');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 95vh;
+    min-height: 55vh;
     margin: 0px !important;
   }
 
@@ -249,6 +265,14 @@ text-align: center;
     border-radius: 4px;
     border: 3px solid white;
   }
+  .jumbotron1 {
+    background-image: url('../imagens/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 40vh;
+    margin: 0px !important;
+  }
 }
 
 @media only screen and (min-height: 738px){
@@ -258,7 +282,14 @@ text-align: center;
 }
 
 @media only screen and (max-width: 600px){
-  
+  .jumbotron1 {
+    background-image: url('../imagens/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 35vh;
+    margin: 0px !important;
+  }
   /* Primeira Section */
   .texto-alegria{
     font-size: 20px;
@@ -278,6 +309,15 @@ text-align: center;
     width: 335px;
     height: 335px;
   }
+}
 
-
+@media only screen and (max-width: 465px){
+  .jumbotron1 {
+    background-image: url('../imagens/background.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 30vh;
+    margin: 0px !important;
+  }
 }

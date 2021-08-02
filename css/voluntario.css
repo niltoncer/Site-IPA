@@ -256,7 +256,7 @@
       background-attachment: scroll;
       min-height: 97vh;
       margin: 0px !important;
-  }
+    }
   .btnSB{
     display: flex;
     flex-direction: column;
@@ -336,7 +336,15 @@
       right: 35%;
       bottom: 15%;
     }
-
+    .jumbotron1{
+      background-image: url(../imagens/amareloedit.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 60vh !important;
+      margin: 0px !important;
+    }
   }
   
   @media only screen and (max-width: 600px){
@@ -354,6 +362,15 @@
     }
     .caixavd iframe{
       max-width: 450px;
+    }
+    .jumbotron1{
+      background-image: url(../imagens/amareloedit.png);
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 35vh !important;
+      margin: 0px !important;
     }
   }
 
