@@ -45,7 +45,7 @@
 
   /* Section Imagem */
   .jumbotron1{
-      background-image: url(../imagens/amarelo.png);
+      background-image: url(../imagens/amarelo.jpg);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -100,7 +100,7 @@
     background-color: #2AACE3;
     display: flex;
     justify-content: center;
-    padding: 30px 0px 30px 0px;
+    padding: 10px 0px 30px 0px;
   }
         #azul1{
           padding-bottom: 0 !important;
@@ -249,23 +249,13 @@
       height: 60px;
     }
     .jumbotron1{
-      background-image: url(../imagens/amareloedit.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: scroll;
-      min-height: 97vh;
+      min-height: 70vh;
       margin: 0px !important;
     }
-  .btnSB{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 41%;
-    bottom: 15%;
-  }
   .laranja{
     min-height: 30vh;
     background-color: #ff570e;
@@ -307,7 +297,7 @@
     .azul .texto p{
       padding: 0 60px;
     }
-
+    
   }
   
   @media only screen and (max-width: 995px) {
@@ -316,6 +306,14 @@
     }
     .contatos-rodape img{
       margin-bottom: 5px;
+    }
+    .jumbotron1 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 60vh;
+      margin: 0px !important;
     }
   }
   
@@ -327,36 +325,18 @@
       border-radius: 4px;
       border: 3px solid white;
     }
-    .btnSB{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      right: 35%;
-      bottom: 15%;
-    }
+    
     .jumbotron1{
-      background-image: url(../imagens/amareloedit.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: scroll;
-      min-height: 60vh !important;
+      min-height: 50vh !important;
       margin: 0px !important;
     }
   }
   
-  @media only screen and (max-width: 600px){
-    .btnSB{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      right: 30%;
-      bottom: 15%;
-    }
+  @media only screen and (max-width: 660px){
     .caixavd{
       margin: 20px;
     }
@@ -364,7 +344,6 @@
       max-width: 450px;
     }
     .jumbotron1{
-      background-image: url(../imagens/amareloedit.png);
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -375,14 +354,13 @@
   }
 
   @media only screen and (max-width: 460px){
-    .btnSB{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      right: 25%;
-      bottom: 15%;
+    .jumbotron1{
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 26vh !important;
+      margin: 0px !important;
     }
     .texto p{
       padding: 30px 5px !important;
@@ -403,13 +381,12 @@
   }
 
   @media only screen and (max-width: 750px){
-    .btnSB{
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      align-items: center;
-      position: relative;
-      right: 25%;
-      bottom: 9%;
+    .jumbotron1 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 35vh;
+      margin: 0px !important;
     }
   }

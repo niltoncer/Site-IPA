@@ -15,7 +15,6 @@
     background-color: transparent !important;
     transition: ease-in-out 100ms;
     height: 80px;
-    
   }
   .mynav.scrolled{  
     background-color: white !important;
@@ -118,7 +117,7 @@ hr {
 
   /* Imagem inicial */
   .jumbotron1 {
-    /* background-image: url('../imagens/'); */
+    background-image: url('../imagens/backgroundQNA.jpg');
     background-color: #2aabe3a1;
     background-size: cover;
     background-repeat: no-repeat;
@@ -161,6 +160,9 @@ hr {
     justify-content: center;
     align-items: center;
     padding: 30px;
+  }
+  .amarelo .caixaimg{
+    text-align: center;
   }
 
   /* Section 3 */
@@ -228,7 +230,6 @@ hr {
       height: 60px;
     }
     .jumbotron1 {
-      background-image: url('../imagens/');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -247,7 +248,6 @@ hr {
   @media only screen and (max-width: 995px) {
     
     .jumbotron1 {
-      background-image: url('../imagens/');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -268,6 +268,12 @@ hr {
     .caixatexto{
       width: 100% !important;
     }
+    .azul .caixaimg{
+      width: 70% !important;
+    }
+    .amarelo .caixaimg{
+      display: none;
+    }
   }
   
   @media only screen and (max-width: 767px){
@@ -279,7 +285,6 @@ hr {
       border: 3px solid white;
     }
     .jumbotron1 {
-      background-image: url('../imagens/');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -292,7 +297,6 @@ hr {
   @media only screen and (max-width: 660px){
     
     .jumbotron1 {
-      background-image: url('../imagens/');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;

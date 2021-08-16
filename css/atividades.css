@@ -103,7 +103,7 @@ hr {
 
   /* Imagem inicial */
 .jumbotron1 {
-    background-image: url('../imagens/bgroundNA.png');
+    background-image: url('../imagens/bgroundNA.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -122,7 +122,7 @@ hr {
   width: 65%;
 }
 .caixatexto1{
-  padding: 0 40px 40px 40px;
+  padding: 0 0px 40px 0px;
 }
 .caixaimg1{
   width: 35%;
@@ -191,8 +191,18 @@ hr {
   border-radius: 50%;
   width: 250px;
   height: 250px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
-
+#card1{
+  background-image: url("../imagens/vick.png");
+}
+#card2{
+  background-image: url("../imagens/erick.png");
+}#card3{
+  background-image: url("../imagens/menina.png");
+}
 
 /* Rodapé */
  footer{
@@ -248,7 +258,7 @@ hr {
       height: 60px;
     }
     .jumbotron1 {
-      background-image: url('../imagens/bgroundNA.png');
+      background-image: url('../imagens/bgroundNA.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -261,7 +271,7 @@ hr {
   @media only screen and (max-width: 995px) {
     
     .jumbotron1 {
-      background-image: url('../imagens/bgroundNA.png');
+      background-image: url('../imagens/bgroundNA.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -331,7 +341,7 @@ hr {
       border: 3px solid white;
     }
     .jumbotron1 {
-      background-image: url('../imagens/bgroundNA.png');
+      background-image: url('../imagens/bgroundNA.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -361,7 +371,7 @@ hr {
   @media only screen and (max-width: 660px){
     
     .jumbotron1 {
-      background-image: url('../imagens/bgroundNA.png');
+      background-image: url('../imagens/bgroundNA.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -404,7 +414,7 @@ hr {
   @media only screen and (max-width: 460px){
     
     .jumbotron1 {
-      background-image: url('../imagens/bgroundNA.png');
+      background-image: url('../imagens/bgroundNA.jpg');
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
