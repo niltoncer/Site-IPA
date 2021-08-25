@@ -53,46 +53,6 @@
       min-height: 97vh;
       margin: 0px !important;
   }
-  .caixabtnSB{
-    width: 100%;
-    height: 90vh;
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-  }
-  .btnSB{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    position: relative;
-    right: 18%;
-    bottom: 11%;
-  }
-  #seta{
-    margin-top: 8px;
-    width: 40px;
-    height: 35px; 
-  }
-  .btnSB button{
-    width: 200px;
-    padding: 5px 0;
-    background-color: #2AACE3;
-    border: 2px solid #2aabe3c4;
-    box-shadow: 0px 0px 10px #00000059;
-    border-radius: 30px;
-    transition: box-shadow 1s, border 1.5s, color 1s, background-color 1s;
-  }
-  .btnSB button:hover{
-    border: 2px solid #1a93c798;
-    border-radius: 30px;
-    transition: box-shadow 1s, border 1.5s, color 1s, background-color 1s;
-  }
-  .btnSB span{
-    color: white;
-    font-weight: bolder;
-    font-size: 20px;
-  }
   /* Section 1 */
 
   .azul{
@@ -108,6 +68,7 @@
         }
         #azul1 .texto{
           width: 100%;
+          padding-top: 0;
         }
         #azul1 .texto p{
           padding: 0 60px;
@@ -121,7 +82,6 @@
     justify-content: center;
     align-items: center;
   }
-
   #sec1img{
   width: 350px;
   }
@@ -308,6 +268,7 @@
       margin-bottom: 5px;
     }
     .jumbotron1 {
+      background-image: url("../imagens/amareloedit.jpg");
       background-size: cover;
       background-repeat: no-repeat;
       background-position: center;
@@ -359,7 +320,6 @@
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: scroll;
-      min-height: 26vh !important;
       margin: 0px !important;
     }
     .texto p{

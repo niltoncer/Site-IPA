@@ -296,7 +296,6 @@ hr {
       flex-direction: column;
       align-items: center;
       justify-content: center;
-      width: 750px;
     }
     .carddep{
       display: flex;

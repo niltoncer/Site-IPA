@@ -234,7 +234,7 @@ hr {
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: scroll;
-      min-height: 70vh;
+      min-height: 73vh;
       margin: 0px !important;
     }
     .caixatexto{
@@ -289,7 +289,7 @@ hr {
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: scroll;
-      min-height: 50vh;
+      min-height: 53vh;
       margin: 0px !important;
     }
   }
@@ -301,11 +301,18 @@ hr {
       background-repeat: no-repeat;
       background-position: center;
       background-attachment: scroll;
-      min-height: 35vh;
+      min-height: 38vh;
       margin: 0px !important;
     }
   }
 
   @media only screen and (max-width: 460px){
-
+    .jumbotron1 {
+      background-size: cover;
+      background-repeat: no-repeat;
+      background-position: center;
+      background-attachment: scroll;
+      min-height: 30vh;
+      margin: 0px !important;
+    }
 }
