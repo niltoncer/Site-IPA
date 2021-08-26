@@ -265,7 +265,7 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 40vh;
+    min-height: 35vh;
     margin: 0px !important;
   }
 }
@@ -281,7 +281,7 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 32vh;
+    min-height: 30vh;
     margin: 0px !important;
   }
   /* Primeira Section */
@@ -310,7 +310,7 @@ text-align: center;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    min-height: 27vh;
+    min-height: 23vh;
     margin: 0px !important;
   }
 }
